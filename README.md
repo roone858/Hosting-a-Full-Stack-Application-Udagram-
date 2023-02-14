@@ -71,7 +71,7 @@ The e2e tests are using Protractor and Jasmine.
 Open http://localhost:4200 in the browser. 
 
 ##front-end link :
--- http://roone-udagram.s3-website-us-east-1.amazonaws.com/home
+-- http://roone-udagram.s3-website-us-east-1.amazonaws.com/
 ## License
 
 
