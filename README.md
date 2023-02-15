@@ -1,5 +1,7 @@
 # Hosting a Full-Stack Application
 
+## front-end link :
+-- http://roone-udagram.s3-website-us-east-1.amazonaws.com/
 ### **You can use you own project completed in previous courses or use the provided Udagram app for completing this final project.**
 
 ---
@@ -70,8 +72,7 @@ The e2e tests are using Protractor and Jasmine.
 
 Open http://localhost:4200 in the browser. 
 
-##front-end link :
--- http://roone-udagram.s3-website-us-east-1.amazonaws.com/
+
 ## License
 
 
