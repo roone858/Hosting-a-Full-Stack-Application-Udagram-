@@ -42,16 +42,21 @@ jobs:
             npm run frontend:deploy
 # Installing the Backend dependencies
       - run:
-          name: Back-End Build
+          name: api Install
           command: |
-            npm run backend:build
-# Installing AWS Elastic Beanstalk CLI
-  
+            npm run api:install
+# Changing the main entry point in package.json for the Backend
+     
+      - run:
+          name: api Build
+          command: |
+            npm run api:build
+
 # Deploying the backend to AWS Elastic Beanstalk
       - run:
-          name: Back-End Deploy
+          name: api Deploy
           command: |
-            npm run backend:deploy
+            npm run api:deploy
 
 workflows:
   build-and-deploy:
